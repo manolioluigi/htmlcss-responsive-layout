@@ -111,6 +111,12 @@
     align-items: center;
 }
 
+.content-linkedin{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
 /*Misc*/
 
 #app-store{
@@ -138,6 +144,15 @@
     color: white;
 }
 
+.purple-button-small{
+    background-color: rgb(149, 147, 230);
+    padding: 10px 20px 10px 20px;
+    margin: 30px 0px 20px 0px;
+    width: fit-content;
+    border-radius: 20px;
+    color: white;
+}
+
 .col-66 img{
     width: 80%;
 }
@@ -149,9 +164,24 @@
 
 .content-purple img{
     width: 100%;
-    height: auto;
     border-radius: 50%;
     clip-path: circle();
+}
+
+.content-linkedin img{
+    position: relative;
+    width: 70%;
+    border-radius: 50%;
+    clip-path: circle();
+}
+
+.content-linkedin i{
+    position: absolute;
+    top: 0;
+    right: 30%;
+    color: rgb(149, 147, 230);
+    font-size: 60px;
+    z-index: 999;
 }
 
 /*Utility*/
@@ -192,8 +222,16 @@
     font-size: 70px;
 }
 
+.text-size-50{
+    font-size: 50px;
+}
+
 .text-center{
     text-align: center;
+}
+
+.text-left{
+    text-align: left;
 }
 
 .italic{
