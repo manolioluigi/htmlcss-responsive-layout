@@ -40,19 +40,66 @@
 }
 
 .col-33{
-    width: 100%;
-    border-radius: 10%;
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 10% 5% 10%;
+    padding: 5%;
 }
 
 .col-66{
-    width: 100%;
-    border-radius: 10%;
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 10% 5% 10%;
+    padding: 5% 5% 0% 5%;
 }
 
 /*Misc*/
 
+#app-store{
+    color: white;
+    background-color: rgb(37, 119, 241);
+    padding: 3% 15% 3% 15%;
+    border-radius: 20px;
+}
+
+.col-66 img{
+    width: 80%;
+}
+
 /*Utility*/
 
+.margin-top-bottom-15{
+    margin: 15px 0px 15px 0px;
+}
+
+.padding-left-5{
+    padding-left: 5px;
+}
+
 .lightblue-bg{
-    background-color: rgb(111, 213, 247);
+    background-color: rgb(129, 218, 248);
+}
+
+.blue-text{
+    color: rgb(43, 96, 243);
+}
+
+.grey-text{
+    color: rgb(90, 90, 90);
+}
+
+.icon-size-70{
+    font-size: 70px;
+}
+
+.text-center{
+    text-align: center;
 }
