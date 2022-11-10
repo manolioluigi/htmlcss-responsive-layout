@@ -183,6 +183,7 @@
     border-radius: 30px;
     color: black;
     font-size: 14px;
+    margin-left: 15px;
 }
 
 .col-header a{
@@ -361,18 +362,46 @@
 
 @media screen and (min-width: 992px) {
 
+    .row-header{
+        padding: 0% 15% 0% 15%;
+    }
+
+    .col-header{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .col-header i{
+        display: none;
+    }
+
+    #menu{
+        display: flex;
+    }
+
     .row-white{
         flex-direction: row;
         margin: 30px 0px 30px 0px;
         width: 70%;
         margin: auto;
+
+    }
+
+    .padding-top-desktop{
+        padding-top: 50px;
+    }
+
+    .padding-bottom-desktop{
+        padding-bottom: 50px;
     }
 
     .col-66{
         width: 66%;
         margin: 10px;
         flex-direction: row;
-        padding: 10px 10px 0px 10px;
+        padding: 10px 20px 0px 20px;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 
     .col-33{
@@ -381,23 +410,33 @@
     }
 
     #app-store{
-        padding: 2% 10% 2% 10%;
+        padding: 4% 14% 4% 14%;
+        margin-top: 50px;
     }
 
     .col-66 p{
-        font-size: 12px;
+        font-size: 16px;
+        line-height: 2;
+        margin-top: 0px;
     }
 
     .col-66 img{
-        max-width: 100%;
+        max-width: 300px;
         align-self: flex-end;
     }
 
-    .col-33 p{
-        font-size: 12px;
+    #left-col-66{
+        max-width: 40%;
+        margin-left: 5%;
+        margin-top: 50px;
     }
 
-    .row-purple{
+    .col-33 p{
+        font-size: 16px;
+        line-height: 2;
+    }
+
+    .first-purple{
         flex-direction: row;
         justify-content: center;
         padding: 10% 15% 0% 15%;
@@ -409,6 +448,63 @@
 
     .start{
         padding-bottom: 40%;
+    }
+
+    .content-purple{
+        display: flex;
+        flex-direction: row;
+        padding: 11px;
+        text-align: left;
+    }
+
+    .row-purple .col-wrap{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 75%;
+    }
+
+    .content-white-desktop{
+        max-width: 29%;
+        margin: 2%;
+    }
+
+    .content-white-desktop p{
+        font-size: 12px;
+    }
+
+    .larger{
+        width: 45%;
+    }
+
+    .smaller{
+        width: 55%;
+        flex-direction: column;
+    }
+
+    .smaller p{
+        font-size: 17px;
+    }
+
+    .smaller-purple{
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .smaller-footer{
+        padding: 0% 25% 0% 25%;
+    }
+
+    .no-margin-left-right-desktop{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .no-margin-left-right-desktop img{
+        max-width: 250px;
     }
 
 }
