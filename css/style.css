@@ -360,15 +360,12 @@
 }
 
 @media screen and (min-width: 992px) {
-    
-    .container{
-        width: 70%;
-        margin: auto;
-    }
 
     .row-white{
         flex-direction: row;
         margin: 30px 0px 30px 0px;
+        width: 70%;
+        margin: auto;
     }
 
     .col-66{
@@ -398,6 +395,20 @@
 
     .col-33 p{
         font-size: 12px;
+    }
+
+    .row-purple{
+        flex-direction: row;
+        justify-content: center;
+        padding: 10% 15% 0% 15%;
+    }
+
+    .row-purple .col-50{
+        margin: 0%;
+    }
+
+    .start{
+        padding-bottom: 40%;
     }
 
 }
